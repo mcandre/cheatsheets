@@ -66,13 +66,27 @@ C-a "
 ## Navigate to next window
 
 ```
-screen$
 C-a n
 ```
 
 ## Navigate to previous window
 
 ```
-screen$
 C-a p
+```
+
+## Detach
+
+Detaching a window allows it to run in the background, e.g. even after disconnecting from an SSH session.
+
+```
+C-a d
+```
+
+## Resume
+
+Screen can resume a running window, e.g. once an SSH session has been reestablished.
+
+```
+$ screen -x <name>
 ```
