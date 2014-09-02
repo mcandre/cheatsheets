@@ -32,6 +32,12 @@ https://github.com/mcandre/cheatsheets/blob/master/emacs.md
 
 [Reference Dotfile](https://github.com/mcandre/dotfiles/blob/master/.emacs)
 
+When troubleshooting Emacs, it is often useful to skip loading `~/.emacs` configuration:
+
+```
+$ emacs -Q ...
+```
+
 ## Hotkey Notation
 
 * `C-` = `Control`
