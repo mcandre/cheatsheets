@@ -2,7 +2,7 @@
 
 Andrew Pennebaker
 
-https://github.com/mcandre/cheatsheets/blob/master/vim-cheatsheet.md
+https://github.com/mcandre/cheatsheets/blob/master/vim.md
 
 ## Documentation
 
