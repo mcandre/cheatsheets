@@ -44,11 +44,17 @@ C-a : <command>
 ## Create new window
 
 ```
-$ screen [-S <name> [-d]] [-X <command>]
+$ screen [options]
 screen$
 ```
 
-Or, within screen:
+Options includes:
+
+* `-S <name>` Name the new window
+* `-d` Automatically detach from the new window
+* `-X <command>` Execute a shell command
+
+## Create new window from within screen:
 
 ```
 screen$
@@ -56,8 +62,6 @@ C-a c
 
 [C-a A <name>]
 ```
-
-`screen -d ...` will automatically detach once the window is created.
 
 ## View screen list
 
