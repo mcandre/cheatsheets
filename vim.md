@@ -4,7 +4,11 @@ Andrew Pennebaker
 
 https://github.com/mcandre/cheatsheets/blob/master/vim.md
 
-## Documentation
+# About
+
+Vim is a highly customizable command line and graphical text editor.
+
+# Documentation
 
 [Emergency vi](http://ergoemacs.org/emacs/emergency_vi.html)
 
@@ -18,7 +22,7 @@ https://github.com/mcandre/cheatsheets/blob/master/vim.md
 
 [The Vi Lovers Home Page](http://thomer.com/vi/vi.html)
 
-## Install
+# Install
 
     $ apt-get install vim
 
@@ -28,7 +32,7 @@ https://github.com/mcandre/cheatsheets/blob/master/vim.md
 
 By default, Ubuntu uses the `vim.tiny`, which lacks support for arrow key navigation. Use `apt-get install vim` to upgrade to full `vim` with arrow key support.
 
-## Configure
+# Configure
 
     ~/.vimrc
 
@@ -36,7 +40,7 @@ By default, Ubuntu uses the `vim.tiny`, which lacks support for arrow key naviga
 
 [Reference Dotfile](https://github.com/mcandre/dotfiles/blob/master/.vimrc)
 
-## Repositories
+# Repositories
 
 [Vundle](https://github.com/gmarik/vundle)
 

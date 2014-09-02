@@ -4,7 +4,11 @@ Andrew Pennebaker
 
 https://github.com/mcandre/cheatsheets/blob/master/emacs.md
 
-## Documentation
+# About
+
+GNU Emacs is a highly customizable command line and graphical text editor.
+
+# Documentation
 
 [EmacsWiki](http://emacswiki.org/)
 
@@ -16,7 +20,7 @@ https://github.com/mcandre/cheatsheets/blob/master/emacs.md
 
 [GNU Emacs Manuals Online](https://www.gnu.org/software/emacs/manual/index.html)
 
-## Install
+# Install
 
     $ apt-get install emacs
 
@@ -26,7 +30,7 @@ https://github.com/mcandre/cheatsheets/blob/master/emacs.md
 
 [emacs-24.2.msi](http://www.yellosoft.us/helpers#emacs)
 
-## Configure
+# Configure
 
     ~/.emacs
 
@@ -38,20 +42,20 @@ When troubleshooting Emacs, it is often useful to skip loading `~/.emacs` config
 $ emacs -Q ...
 ```
 
-## Hotkey Notation
+# Hotkey Notation
 
 * `C-` = `Control`
 * `M-` = `Alt` ("Meta" key)
 * `S-` = `Shift`
 * `key-key key-key key-key...` = Hotkeys are pressed in order, not simultaneously.
 
-## Evaluate Elisp Code
+# Evaluate Elisp Code
 
     M-: (<code...>)
 
     M-x <code>
 
-## System Commands
+# System Commands
 
     M-x shell
 
@@ -59,7 +63,7 @@ $ emacs -Q ...
 
     M-! <command>
 
-### Ncurses Terminals
+## Ncurses Terminals
 
 For ncurses-style programs that erase the screen, use:
 
@@ -67,13 +71,13 @@ For ncurses-style programs that erase the screen, use:
 
 In term-mode, `C-x ...` commands should be typed as `C-c ...`.
 
-## Packages
+# Packages
 
     (package-refresh-contents)
 
     (package-install '<package>)
 
-## Repositories
+# Repositories
 
 [Marmalade](http://marmalade-repo.org/)
 

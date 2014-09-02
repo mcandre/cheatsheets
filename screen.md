@@ -4,6 +4,10 @@ Andrew Pennebaker
 
 https://github.com/mcandre/cheatsheets/blob/master/screen.md
 
+# About
+
+GNU Screen is a program for managing multiple terminal sessions as "windows". Windows can be created, destroyed, backgrounded, foregrounded, split, and logged.
+
 # Documentation
 
 http://www.gnu.org/software/screen/manual/
