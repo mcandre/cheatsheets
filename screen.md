@@ -44,7 +44,7 @@ C-a : <command>
 ## Create new window
 
 ```
-$ screen [-S <name>] [-X <command>]
+$ screen [-S <name> [-d]] [-X <command>]
 screen$
 ```
 
@@ -56,6 +56,8 @@ C-a c
 
 [C-a A <name>]
 ```
+
+`screen -d ...` will automatically detach once the window is created.
 
 ## View screen list
 
