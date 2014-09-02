@@ -304,3 +304,8 @@ Or switch windows and grow the other one.
 ## Leave room
 
     /part
+
+# Alternatives
+
+* [Nano](https://github.com/mcandre/cheatsheets/blob/master/nano.md) has a much easier learning curve than Emacs.
+* [Vim](https://github.com/mcandre/cheatsheets/blob/master/vim.md) is comparable to Emacs in power, and offers shorter hotkeys for navigation and refactoring. Vim also tends to be installed by default on more systems.

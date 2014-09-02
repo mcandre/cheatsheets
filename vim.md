@@ -256,3 +256,9 @@ Or
 ## Close Shell
 
     Control+d
+
+# Alternatives
+
+* [vi](http://thomer.com/vi/vi.html) is a precursor to Vim, often installed by default on Unix systems like busybox.
+* [Nano](https://github.com/mcandre/cheatsheets/blob/master/nano.md) has a much easier learning curve than Vim.
+* [Emacs](https://github.com/mcandre/cheatsheets/blob/master/emacs.md) is comparable to Vim in power, and operates as if in insert mode all of the time.

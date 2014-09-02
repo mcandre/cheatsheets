@@ -128,3 +128,9 @@ Additional syntax highlighters:
 ### Delete
 
     DEL
+
+# Alternatives
+
+* [Pico](http://www.washington.edu/pine/) is a precursor to Nano, often installed by default on Unix systems.
+* [Emacs](https://github.com/mcandre/cheatsheets/blob/master/emacs.md) provides many more features than Nano.
+* [Vim](https://github.com/mcandre/cheatsheets/blob/master/vim.md) also provides many more features than Nano.
