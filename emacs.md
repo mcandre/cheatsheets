@@ -288,6 +288,11 @@ Or switch windows and grow the other one.
 
     C-k
 
+### Sort lines
+
+1. Highlight relevant lines.
+2. `M-x sort-lines`
+
 # Help
 
 ## Variables
