@@ -222,6 +222,10 @@ Or
 
     O
 
+## Insert Unicode Literal
+
+    Control+v u <n>
+
 ## Delete
 
     x
