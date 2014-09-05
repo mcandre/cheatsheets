@@ -125,6 +125,10 @@ To return to Normal mode, press `ESC`.
 
     :s/<term>/<replacement>/g
 
+## Replace Global
+
+    :%s/<term>/<replacement>/g
+
 ## Search in Directory
 
     :grep <term> *.?<file extensions>
