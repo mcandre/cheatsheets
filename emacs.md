@@ -284,6 +284,14 @@ Or switch windows and grow the other one.
 
     M-x delete-trailing-whitespace
 
+### Final Newline preference
+
+    M-: (setq require-final-newline t)
+    M-: (setq require-final-newline nil)
+
+User may need to delete and reinsert last character (e.g. `>` in `</html>`)
+in order for preference to take effect.
+
 ### Cut Line
 
     C-k
