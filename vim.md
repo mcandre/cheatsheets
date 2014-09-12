@@ -91,6 +91,10 @@ To return to Normal mode, press `ESC`.
 
     :o
 
+## Save all buffers
+
+    :wall
+
 ## Quit
 
     :q
