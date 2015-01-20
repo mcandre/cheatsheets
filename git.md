@@ -198,6 +198,38 @@ nothing to commit, working directory clean
 $ git stash apply
 ```
 
+# Resetting HEAD
+
+Sometimes you want to revisit an earlier commit:
+
+```
+$ git reset <commit ID> [--hard]
+```
+
+## Delete a local commit
+
+Reset to an earlier commit and continue working.
+
+## Delete a recent commit from a remote
+
+```
+$ git reset --hard <an earlier commit>
+$ git push origin HEAD --force
+```
+
+If you are quick enough, this will alter Git history on the remote before anyone has pulled the commit you deleted. This could save you if you accidentally pushed sensitive information in a commit.
+
+But in many cases, this will result in a very awkward state, almost corrupting your fellow Git users' Git histories.
+
+## Reverse specific commits
+
+Generally, the safer option is to revert the commit, a sort of Git Undo operation:
+
+```
+$ git revert <commit-to-remove> [<another-commit-to-remove> ...
+$ git push
+```
+
 # Alternatives
 
 * [Mercurial](http://mercurial.selenic.com/)
