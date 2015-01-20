@@ -145,6 +145,14 @@ project (master)$ git checkout -b v1.0 v1.0
 project (v1.0)$
 ```
 
+# Hooks
+
+Any scripts named `.git/hooks/post-merge`, `.git/hooks/post-checkout`, etc., will be run as a side effect of the associated Git process.
+
+Example:
+
+https://github.com/mcandre/dotfiles/blob/master/hooks/post-merge-checkout
+
 # Alternatives
 
 * [Mercurial](http://mercurial.selenic.com/)
