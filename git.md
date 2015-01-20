@@ -88,6 +88,16 @@ git-commit takes an optional `-m <message>` to enter the message directly into t
 
 git-commit can load the text editor of your choice for writing commit messages, by customizing `.gitconfig`.
 
+# View most recent commits
+
+```
+$ git log
+```
+
+For more ways to view Git history, see Pro Git Chapter 2:
+
+http://git-scm.com/book/en/v2/Git-Basics-Viewing-the-Commit-History
+
 # Push a local changes to remote
 
 ```
