@@ -36,6 +36,18 @@ C:\> chocolatey install git
 
 [Reference Dotfile](https://gist.github.com/pksunkara/988716)
 
+`~/.gitconfig` can be edited manually, and/or specific fields can be set with `git config` commands:
+
+```
+$ git config --global user.name "<Your Name>"
+$ git config --global user.email <your@email.com>
+$ git config --global core.editor emacs
+```
+
+# SSH Keys
+
+Git encourages authentication with SSH keys, skipping the need for password authentication. Consult your [GitHub](https://help.github.com/articles/generating-ssh-keys/) or [GitLab](http://doc.gitlab.com/ce/ssh/ssh.html) documentation for more information on setting up SSH keys.
+
 # Create a repository
 
 ```
@@ -46,6 +58,17 @@ $ git init
 
 ```
 $ git add <files or folders>
+```
+
+## Add an empty directory to version control
+
+Git does not version control folders, only files. To effectively force Git to add a directory to version control, we can add a dummy file, `.gitkeep` to the desired folder.
+
+```
+$ mkdir empty/
+$ touch empty/.gitkeep
+$ git add empty/
+$ git commit
 ```
 
 # Remove files from version control
@@ -60,6 +83,10 @@ $ git rm [-r] [-f] <files or folders>
 $ git add <files or folders>
 $ git commit
 ```
+
+git-commit takes an optional `-m <message>` to enter the message directly into the shell.
+
+git-commit can load the text editor of your choice for writing commit messages, by customizing `.gitconfig`.
 
 # Push a local changes to remote
 
@@ -152,6 +179,24 @@ Any scripts named `.git/hooks/post-merge`, `.git/hooks/post-checkout`, etc., wil
 Example:
 
 https://github.com/mcandre/dotfiles/blob/master/hooks/post-merge-checkout
+
+# Stash
+
+Git offers a spare queue for temporarily storing code changes, useful when editing Git history.
+
+## Move changes since last commit into a new stash element
+
+```
+$ git stash
+$ git status
+nothing to commit, working directory clean
+```
+
+## Move stash change onto current files
+
+```
+$ git stash apply
+```
 
 # Alternatives
 
