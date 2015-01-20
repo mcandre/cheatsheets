@@ -230,6 +230,13 @@ $ git revert <commit-to-remove> [<another-commit-to-remove> ...
 $ git push
 ```
 
+## Cherry pick commits from one branch to another
+
+```
+$ git checkout <destination-branch>
+project (destination branch)$ git cherry-pick <desired-commit>
+```
+
 # Alternatives
 
 * [Mercurial](http://mercurial.selenic.com/)
