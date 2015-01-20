@@ -171,16 +171,16 @@ $ git push --tags
 $ git pull --tags
 ```
 
-# Checkout a branch at a tag
+# How to checkout a branch at a tag
 
-The first argument to `git-checkout -b` is the name of the branch we will create.
-
-The second argument is the tag from which we want to base our branch. We can safely use the same name for our branch as our tag.
+Git purists will complain that you can't *technically* checkout a tag, but we can effectively do this by checking out a new branch *based* on a tag.
 
 ```
 project (master)$ git checkout -b v1.0 v1.0
 project (v1.0)$
 ```
+
+Here, we supplied the tag name as the second argument, and the same tag name as the first argument, to git-checkout.
 
 # Hooks
 
