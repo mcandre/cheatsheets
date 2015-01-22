@@ -16,6 +16,8 @@ Subversion is a tried-and-true version control system.
 
 # Install
 
+On some operating systems (Mac OS X), Subversion is built-in. Otherwise, install with:
+
 ```
 $ apt-get install subversion
 
@@ -50,7 +52,7 @@ Example:
 $ svn checkout http://checkthread.googlecode.com/svn/ checkthread
 ```
 
-# Add new or changed files to version control
+# Add new files to version control
 
 ```
 $ svn add <files or folders>
