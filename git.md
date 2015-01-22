@@ -90,6 +90,22 @@ git-commit takes an optional `-m <message>` to enter the message directly into t
 
 git-commit can load the text editor of your choice for writing commit messages, by customizing `.gitconfig`.
 
+## Partial commit
+
+Git can commit specific line changes, temporarily ignoring other line changes.
+
+```
+$ git add -p
+```
+
+This launches an interactive patch session in which a commit is constructed based on user selections of yes (`y`), no (`n`), or split (`s`) for each change to consider.
+
+Then commit the partial changes:
+
+```
+$ git commit
+```
+
 # View most recent commits
 
 ```
