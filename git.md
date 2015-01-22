@@ -32,7 +32,9 @@ C:\> chocolatey install git
 
 # Configure
 
-    ~/.gitconfig
+```
+~/.gitconfig
+```
 
 [Reference Dotfile](https://gist.github.com/pksunkara/988716)
 
@@ -208,9 +210,17 @@ nothing to commit, working directory clean
 $ git stash apply
 ```
 
-# Resetting HEAD
+# Checkout specific commits
 
 Sometimes you want to revisit an earlier commit:
+
+```
+$ git checkout <commit>
+```
+
+## Moving HEAD
+
+Sometimes you need to point HEAD to a commit:
 
 ```
 $ git reset <commit ID> [--hard]
