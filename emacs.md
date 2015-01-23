@@ -63,6 +63,10 @@ $ emacs -Q ...
 
     M-! <command>
 
+## Repeat last command
+
+    M-p, RET
+
 ## Ncurses Terminals
 
 For ncurses-style programs that erase the screen, use:
