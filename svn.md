@@ -128,13 +128,12 @@ You can display the current Subversion branch in your shell prompt by following 
 
 https://home.regit.org/technical-articles/subversion-aware-prompt/
 
-# Merge this branch into another branch
+# Merge another branches' changes into current branch
 
 ```
-project (myfeature)$ svn merge http://svn.example.com/repos/calc/trunk
-project (myfeature)$ cd ..
-project$ cd trunk/
-project (trunk)$
+project (myfeature)$ cd ../trunk/
+project (trunk)$ svn merge -r<myfeature creation revision>:HEAD http://svn.example.com/repos/calc/branches/myfeature
+project (trunk)$ svn commit
 ```
 
 # Create a tag
