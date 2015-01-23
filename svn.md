@@ -73,6 +73,12 @@ $ svn commit
 
 svn commit takes an optional `-m <message>` to enter the message directly into the shell.
 
+# Clear away uncommitted changes
+
+```
+$ svn revert <files or folders>
+```
+
 # View most recent commits
 
 ```
