@@ -85,6 +85,12 @@ $ svn revert <files or folders>
 $ svn log -l 4
 ```
 
+# View difference between two commits
+
+```
+$ svn diff -r <commit a>:<commit b>
+```
+
 # Pull remote changes into local repo
 
 ```

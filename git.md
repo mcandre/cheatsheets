@@ -112,6 +112,12 @@ $ git commit
 $ git log
 ```
 
+# View difference between two commits
+
+```
+$ git diff <commit a> <commit b>
+```
+
 For more ways to view Git history, see Pro Git Chapter 2:
 
 http://git-scm.com/book/en/v2/Git-Basics-Viewing-the-Commit-History
