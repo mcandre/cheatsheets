@@ -70,20 +70,26 @@ cats -dogs
 
 ### Wildcards
 
-A question mark (`?`) matches a single, arbitrary character:
+Question mark (`?`) matches a single, arbitrary character.
+
+Asterisk (`*`) matches any word or phrase.
+
+Note that wildcards need to be escaped (`\?`, `\?`) when used inside phrases/strings.
 
 ```
+cats
+
 c?ts
 
++khtml +like +Gecko
+
 +khtml +like +Geck?
-```
 
-An asterisk (`*`) will match anything in its position, though asterisks may require escaping (e.g. in phrases):
+"khtml like Geck\?"
 
-```
 +"khtml, like" +Ge*
 
-"\*, like Gecko"
+"khtml, like \*"
 ```
 
 # Operators
