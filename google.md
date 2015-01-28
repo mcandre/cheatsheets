@@ -16,8 +16,14 @@ Google is a flexible search engine.
 
 # Basic queries
 
+Google is case-insensitve.
+
 ```
 cats
+
+CATS
+
+CaTs
 ```
 
 ## Intersect
@@ -107,5 +113,5 @@ cache:http://www.grumpycats.com/
 # Alternatives
 
 * [DuckDuckGo](https://github.com/mcandre/cheatsheets/blob/master/duckduckgo.md))
-* [Lucene](http://lucene.apache.org/)
+* [Lucene](https://github.com/mcandre/cheatsheets/blob/master/lucene.md)
 * [Fetch](http://fetch.yellosoft.us/)

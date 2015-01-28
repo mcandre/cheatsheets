@@ -18,8 +18,14 @@ DuckDuckGo is a protective search engine, emphasizing privacy and customization.
 
 # Basic queries
 
+DuckDuckGo is case-insensitive:
+
 ```
 cats
+
+CATS
+
+CaTs
 ```
 
 ## Intersect
@@ -93,5 +99,5 @@ https://duckduckgo.com/settings
 # Alternatives
 
 * [Google](https://github.com/mcandre/cheatsheets/blob/master/google.md)
-* [Lucene](http://lucene.apache.org/)
+* [Lucene](https://github.com/mcandre/cheatsheets/blob/master/lucene.md)
 * [Fetch](http://fetch.yellosoft.us/)
