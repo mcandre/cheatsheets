@@ -90,7 +90,7 @@ An asterisk (`*`) will match anything in its position, though asterisks may requ
 
 ## Host-specific search
 
-Hosts tend to require fully qualified domain names (`google` bad syntax, `google.com` good syntax). Though wildcards can help abbreviate this.
+Hosts tend to require fully qualified domain names (e.g., `google` is bad syntax, `google.com` is good syntax). Though wildcards can help abbreviate this.
 
 ```
 host:tomcat.apache.org
