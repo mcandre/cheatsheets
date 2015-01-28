@@ -20,7 +20,7 @@ Lucene is a programmable search engine, used by [elasticsearch](http://www.elast
 
 # Basic queries
 
-Lucene is case-insensitive.
+Lucene indexes can be case-sensitive or case-insensitive, depending on configuration.
 
 ```
 cats
