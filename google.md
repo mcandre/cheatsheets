@@ -112,6 +112,6 @@ cache:http://www.grumpycats.com/
 
 # Alternatives
 
-* [DuckDuckGo](https://github.com/mcandre/cheatsheets/blob/master/duckduckgo.md))
+* [DuckDuckGo](https://github.com/mcandre/cheatsheets/blob/master/duckduckgo.md)
 * [Lucene](https://github.com/mcandre/cheatsheets/blob/master/lucene.md)
 * [Fetch](http://fetch.yellosoft.us/)
