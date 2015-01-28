@@ -111,5 +111,5 @@ Note: When a term is not prefixed with an operator, it is automatically searched
 # Alternatives
 
 * [Google](https://github.com/mcandre/cheatsheets/blob/master/google.md)
-* [DuckDuckGo](https://github.com/mcandre/cheatsheets/blob/master/duckduckgo.md))
+* [DuckDuckGo](https://github.com/mcandre/cheatsheets/blob/master/duckduckgo.md)
 * [Fetch](http://fetch.yellosoft.us/)
