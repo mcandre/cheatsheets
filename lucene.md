@@ -28,7 +28,7 @@ CATS
 CaTs
 ```
 
-Unlike other search engines, Lucene defaults term-paring to ORs rather than ANDs.
+Unlike other search engines, Lucene defaults term-pairing to ORs rather than ANDs.
 
 ## Union
 
