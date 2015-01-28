@@ -121,6 +121,12 @@ host:tomcat.apache.org
 host:tomcat*
 ```
 
+## Excluding results (e.g. syslog loglevels)
+
+```
+host:tomcat* AND NOT INFO
+```
+
 ## Log file path
 
 ```
