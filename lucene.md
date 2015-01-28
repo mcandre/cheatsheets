@@ -74,7 +74,10 @@ Question mark (`?`) matches a single, arbitrary character.
 
 Asterisk (`*`) matches any word or phrase.
 
-Note that wildcards need to be escaped (`\?`, `\?`) when used inside phrases/strings.
+Notes:
+
+* Wildcards need to be escaped (e.g., `\?`, `\?`) when used inside phrases/strings.
+* An asterisk cannot be used as the first character of a term (e.g., `*oogle` is bad syntax).
 
 ```
 cats
