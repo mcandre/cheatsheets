@@ -26,6 +26,10 @@ cats
 cats AND dogs
 ```
 
+```
+cats dogs
+```
+
 ## Union
 
 ```
@@ -102,5 +106,6 @@ cache:http://www.grumpycats.com/
 
 # Alternatives
 
-* [DuckDuckGo](https://duckduckgo.com/)
+* [DuckDuckGo](https://github.com/mcandre/cheatsheets/blob/master/duckduckgo.md))
 * [Lucene](http://lucene.apache.org/)
+* [Fetch](http://fetch.yellosoft.us/)
