@@ -95,6 +95,8 @@ c?ts
 +"khtml, like" +Ge*
 
 "khtml, like \*"
+
+error\:
 ```
 
 ## Fuzzy searches
