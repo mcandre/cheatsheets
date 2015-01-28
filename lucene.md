@@ -14,6 +14,8 @@ Lucene is a programmable search engine, used by [elasticsearch](http://www.elast
 
 [LuceneTutorial.com](http://www.lucenetutorial.com/lucene-query-syntax.html)
 
+[Lucene Query Parser Syntax](http://lucene.apache.org/core/2_9_4/queryparsersyntax.html)
+
 [Lucene in Action](http://www.amazon.com/dp/1933988177/)
 
 # Basic queries
@@ -68,7 +70,7 @@ cats -dogs
 "grumpy cat"
 ```
 
-### Wildcards
+## Wildcards
 
 Question mark (`?`) matches a single, arbitrary character.
 
@@ -76,7 +78,7 @@ Asterisk (`*`) matches any word or phrase.
 
 Notes:
 
-* Wildcards need to be escaped (e.g., `\?`, `\?`) when used inside phrases/strings.
+* Wildcards and other special characters (e.g., `+`, `-`, `&`, `|`, `!`, `(`, `)`, `{`, `}`, `[`, `]`, `^`, `"`, `~`, `*`, `?`, `:`, `and \`) need to be escaped (e.g., `\?`, `\?`) when used inside phrases/strings, or searched for as a literal.
 * An asterisk cannot be used as the first character of a term (e.g., `*oogle` is bad syntax).
 
 ```
@@ -94,6 +96,16 @@ c?ts
 
 "khtml, like \*"
 ```
+
+## Fuzzy searches
+
+Lucene can search for similar terms:
+
+```
+integer~
+```
+
+will match on `integer`, `integers`, and `intejer`.
 
 # Operators
 
