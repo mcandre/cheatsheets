@@ -90,10 +90,12 @@ An asterisk (`*`) will match anything in its position, though asterisks may requ
 
 ## Host-specific search
 
-```
-+host:en.wikipedia.org +music
+Hosts tend to require fully qualified domain names (`google` bad syntax, `google.com` good syntax). Though wildcards can help abbreviate this.
 
-+host:tomcat* +error
+```
+host:tomcat.apache.org
+
+host:tomcat*
 ```
 
 ## Log file path
