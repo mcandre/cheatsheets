@@ -40,7 +40,7 @@ cats OR dogs
 
 ## Intersect
 
-Remember to explicitly AND terms together:
+Most of the time, you will want to remember to explicitly AND terms together:
 
 ```
 cats AND dogs
