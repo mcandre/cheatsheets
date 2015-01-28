@@ -58,10 +58,12 @@ cats AND dogs
 
 ## Subtraction
 
-Minus (`-`) removes a term from results, and automatically ANDs it with the rest of the query.
+Minus (`-`) excludes a term from results, and automatically ANDs it with the rest of the query.
 
 ```
 cats -dogs
+
+cats AND NOT dogs
 ```
 
 ## Phrases
