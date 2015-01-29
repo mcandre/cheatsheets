@@ -240,7 +240,7 @@ Sometimes you want to revisit an earlier commit:
 $ git checkout <commit>
 ```
 
-## Moving HEAD
+# Moving HEAD
 
 Sometimes you need to point HEAD to a commit:
 
@@ -248,11 +248,11 @@ Sometimes you need to point HEAD to a commit:
 $ git reset <commit ID> [--hard]
 ```
 
-## Delete a local commit
+# Delete a local commit
 
 Reset to an earlier commit and continue working.
 
-## Delete a recent commit from a remote
+# Delete a recent commit from a remote
 
 ```
 $ git reset --hard <an earlier commit>
@@ -263,20 +263,40 @@ If you are quick enough, this will alter Git history on the remote before anyone
 
 But in many cases, this will result in a very awkward state, almost corrupting your fellow Git users' Git histories.
 
-## Reverse specific commits
+# Reverse specific commits
 
 Generally, the safer option is to revert the commit, a sort of Git Undo operation:
 
 ```
-$ git revert <commit-to-remove> [<another-commit-to-remove> ...
+$ git revert <commit-to-remove> [<another-commit-to-remove> ...]
 $ git push
 ```
 
-## Cherry pick commits from one branch to another
+# Cherry pick commits from one branch to another
 
 ```
 $ git checkout <destination-branch>
 project (destination branch)$ git cherry-pick <desired-commit>
+```
+
+# Convert a svn repo to git
+
+## Quick and dirty (no svn history)
+
+```
+$ find . -type d -name .svn -exec rm -rf {} \;
+$ git init && git add . && git commit && git remote add origin <...> && git push
+```
+
+## Keep the old svn history
+
+This may require upgrading to latest Git (e.g., `brew install git`).
+
+```
+$ git init
+$ git svn clone -r <revision start point>:HEAD <svn URL> .
+$ git remote add origin <...>
+$ git push
 ```
 
 # Alternatives
