@@ -288,7 +288,7 @@ $ find . -type d -name .svn -exec rm -rf {} \;
 $ git init && git add . && git commit && git remote add origin <...> && git push
 ```
 
-## Keep the old svn history
+## Slow and steady (keep svn history)
 
 This may require upgrading to latest Git (e.g., `brew install git`).
 
