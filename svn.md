@@ -158,6 +158,10 @@ $ svn ls ^/tags
 v1.0
 ```
 
+# Convert a svn repo to git
+
+See https://github.com/mcandre/cheatsheets/blob/master/git.md#convert-a-svn-repo-to-git
+
 # Alternatives
 
 * [Git](https://github.com/mcandre/cheatsheets/blob/master/git.md)
