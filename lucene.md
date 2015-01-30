@@ -111,6 +111,20 @@ integer~
 
 will match on `integer`, `integers`, and `intejer`.
 
+### Specify a threshold
+
+An optional fuzziness threshold can be specified, from 0.0 (very loose) to 1.0 (very strict).
+
+```
+integer~
+
+integer~0.5
+
+integer~0.4
+
+integer~0.6
+```
+
 # Operators
 
 ## Host-specific search
