@@ -266,6 +266,18 @@ A
 $
 ```
 
+## Page Up
+
+```
+Control+b
+```
+
+## Page Down
+
+```
+Control+f
+```
+
 ## Go to Line
 
 ```
