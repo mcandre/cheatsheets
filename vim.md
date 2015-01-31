@@ -24,19 +24,23 @@ Vim is a highly customizable command line and graphical text editor.
 
 # Install
 
-    $ apt-get install vim
+```
+$ apt-get install vim
 
-    $ brew install macvim --override-system-vim && brew linkapps
+$ brew install macvim --override-system-vim && brew linkapps
 
-    C:\> chocolatey install vim
+C:\> chocolatey install vim
+```
 
 By default, Ubuntu uses the `vim.tiny`, which lacks support for arrow key navigation. Use `apt-get install vim` to upgrade to full `vim` with arrow key support.
 
 # Configure
 
-    ~/.vimrc
+```
+~/.vimrc
 
-    ~/_vimrc
+~/_vimrc
+```
 
 [Reference Dotfile](https://github.com/mcandre/dotfiles/blob/master/.vimrc)
 
@@ -66,92 +70,130 @@ To return to Normal mode, press `ESC`.
 
 ## Open or Refresh File/Directory
 
-    $ vim <file/dir>
+```
+$ vim <file/dir>
 
-    $ vim
-    :e <file/dir>
+$ vim
+:e <file/dir>
+```
 
 ## View File
 
-    $ view <file/dir>
+```
+$ view <file/dir>
+```
 
 ### Windows
 
-    C:\> vim <file/dir>
+```
+C:\> vim <file/dir>
 
-    gitbash$ vim <file/dir>
+gitbash$ vim <file/dir>
+```
 
 ## Save
 
-    :w
+```
+:w
+```
 
 ## Save As...
 
-    :w <filename>
+```
+:w <filename>
 
-    :o
+:o
+```
 
 ## Save all buffers
 
-    :wall
+```
+:wall
+```
 
 ## Quit
 
-    :q
+```
+:q
+```
 
 ## Force Quit
 
-    :q!
+```
+:q!
+```
 
 ## Undo
 
-    u
+```
+u
+```
 
 ## Redo
 
-    Control+r
+```
+Control+r
+```
 
 ## Cancel Vim Command
 
-    ESC
+```
+ESC
+```
 
 ## Next Search Result
 
-    n
+```
+n
+```
 
 ## Find
 
-    /<term>
+```
+/<term>
+```
 
 `n` next match.
 
 ## Replace
 
-    :s/<term>/<replacement>/g
+```
+:s/<term>/<replacement>/g
+```
 
 ## Replace Global
 
-    :%s/<term>/<replacement>/g
+```
+:%s/<term>/<replacement>/g
+```
 
 ## Search in Directory
 
-    :grep <term> *.?<file extensions>
+```
+:grep <term> *.?<file extensions>
+```
 
 ## Clipboard
 
 Vim will integrate with the OS clipboard, provided that +clipboard is enabled at compile time, and:
 
-    set clipboard=unnamed
+```
+set clipboard=unnamed
+```
 
 is configured in vimrc.
 
 ## Cut Line
 
-    dd
+```
+dd
+```
 
 ## Cut to End of Line
 
-    D
+```
+D
+```
 
 ## Cut selected text
 
@@ -160,11 +202,15 @@ is configured in vimrc.
 
 ## Copy Lines
 
-    yy[n]
+```
+yy[n]
+```
 
 ## Paste Lines
 
-    p
+```
+p
+```
 
 # Navigation
 
@@ -174,91 +220,133 @@ Arrow keys may also be used, but they require a full `vim` package, provided by 
 
 ## Left (Visual)
 
-    h
+```
+h
+```
 
 ## Down (Visual)
 
-    j
+```
+j
+```
 
 ## Up (Visual)
 
-    k
+```
+k
+```
 
 ## Right (Visual)
 
-    l
+```
+l
+```
 
 ## Start of Line
 
-    I
+```
+I
+```
 
 ## End of Line
 
-    A
+```
+A
+```
 
 ## Start of Line (Visual)
 
-    0
+```
+0
+```
 
 ## End of Line (Visual)
 
-    $
+```
+$
+```
 
 ## Go to Line
 
-    :<n>
+```
+:<n>
 
-    <n>G
+<n>G
+```
 
 ## Go to Start of File
 
-    :1
+```
+:1
+```
 
 Or
 
-    gg
+```
+gg
+```
 
 ## Go to End of File
 
-    G
+```
+G
+```
 
 ## Insert Line Below
 
-    o
+```
+o
+```
 
 ## Insert Line Above
 
-    O
+```
+O
+```
 
 ## Insert Unicode Literal
 
-    Control+v u <n>
+```
+Control+v u <n>
+```
 
 ## Delete
 
-    x
+```
+x
+```
 
 # Help
 
-    :h '<term>
+```
+:h '<term>
+```
 
 # Windows
 
 ## Split Windows
 
-    Control+w, s
+```
+Control+w, s
+```
 
 ## Switch Window Directionally
 
-    Control+W+(direction)
+```
+Control+W+(direction)
+```
 
 ## Switch to Next Window
 
-    Control+w, Control+w
+```
+Control+w, Control+w
+```
 
 ## Close Window
 
-    :hide
+```
+:hide
+```
 
 ## Nerd Commenter
 
@@ -267,11 +355,15 @@ Or
 
 ## Open Shell
 
-    :sh
+```
+:sh
+```
 
 ## Close Shell
 
-    Control+d
+```
+Control+d
+```
 
 # Alternatives
 
