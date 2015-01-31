@@ -366,6 +366,18 @@ C-a
 C-e
 ```
 
+### Page Up
+
+```
+M-v
+```
+
+### Page Down
+
+```
+C-v
+```
+
 ### Delete
 
 ```
