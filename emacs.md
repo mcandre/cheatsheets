@@ -22,17 +22,21 @@ GNU Emacs is a highly customizable command line and graphical text editor.
 
 # Install
 
-    $ apt-get install emacs
+```
+$ apt-get install emacs
 
-    $ brew install --cocoa emacs
+$ brew install --cocoa emacs
 
-    C:\> chocolatey install Emacs
+C:\> chocolatey install Emacs
+```
 
 [emacs-24.2.msi](http://www.yellosoft.us/helpers#emacs)
 
 # Configure
 
-    ~/.emacs
+```
+~/.emacs
+```
 
 [Reference Dotfile](https://github.com/mcandre/dotfiles/blob/master/.emacs)
 
@@ -51,35 +55,45 @@ $ emacs -Q ...
 
 # Evaluate Elisp Code
 
-    M-: (<code...>)
+```
+M-: (<code...>)
 
-    M-x <code>
+M-x <code>
+```
 
 # System Commands
 
-    M-x shell
+```
+M-x shell
 
-    M-x eshell
+M-x eshell
 
-    M-! <command>
+M-! <command>
+```
 
 ## Repeat last command
 
-    M-p, RET
+```
+M-p, RET
+```
 
 ## Ncurses Terminals
 
 For ncurses-style programs that erase the screen, use:
 
-    M-x term
+```
+M-x term
+```
 
 In term-mode, `C-x ...` commands should be typed as `C-c ...`.
 
 # Packages
 
-    (package-refresh-contents)
+```
+M-: (package-refresh-contents)
 
-    (package-install '<package>)
+M-: (package-install '<package>)
+```
 
 # Repositories
 
@@ -91,61 +105,85 @@ In term-mode, `C-x ...` commands should be typed as `C-c ...`.
 
 ## Open File/Directory
 
-    $ emacs <file/dir>
+```
+$ emacs <file/dir>
 
-    $ emacs
-    C-x C-f <file/dir>
+$ emacs
+C-x C-f <file/dir>
+```
 
 ## View File
 
-    $ emacs
-    M-x view-file RET <file>
+```
+$ emacs
+M-x view-file RET <file>
+```
 
 ### Windows
 
-    C:\> runemacs <file/dir>
+```
+C:\> runemacs <file/dir>
 
-    gitbash$ runemacs <file/dir>
+gitbash$ runemacs <file/dir>
 
-    gitbash$ emacs <file/dir> &
+gitbash$ emacs <file/dir> &
+```
 
 ## Save
 
-    C-x C-s
+```
+C-x C-s
+```
 
 ## Save As...
 
-    C-x C-w
+```
+C-x C-w
+```
 
 ## Quit
 
-    C-x C-c
+```
+C-x C-c
+```
 
 ## Undo/Redo
 
-    C-_
+```
+C-_
+```
 
 ## Cancel Emacs Command Chain
 
-    C-g
+```
+C-g
+```
 
 ## Next Search Result
 
-    C-s
+```
+C-s
+```
 
 ## Toggle treating search pattern as literal vs regex
 
-    M-r
+```
+M-r
+```
 
 ## Find and Replace
 
 Find/Replace from cursor to end of file:
 
-    M-%
+```
+M-%
+```
 
 Wrap:
 
-    C-s
+```
+C-s
+```
 
 Enter text to find.
 Enter text to replace.
@@ -160,7 +198,9 @@ Enter text to replace.
 
 By default, Emacs offers grep for searching all files in a directory:
 
-    M-x rgrep
+```
+M-x rgrep
+```
 
 If Emacs has trouble finding the `grep` binary in Mac OS X, you can inform Mac apps of the full `PATH`:
 
@@ -178,51 +218,73 @@ http://emacswiki.org/emacs/RegularExpression
 
 ## Select All
 
-    C-x h
+```
+C-x h
+```
 
 ## Cut
 
-    C-w
+```
+C-w
+```
 
 ## Copy
 
-    M-w
+```
+M-w
+```
 
 ## Paste
 
-    C-y
+```
+C-y
+```
 
 ## Set mark
 
-    C-space
+```
+C-space
+```
 
 ## Toggle Comment Marked Region
 
-    M-;
+```
+M-;
+```
 
 ## Auto-Indent Current Line or Marked Region
 
-    TAB
+```
+TAB
+```
 
 ## Insert literal Tab Character
 
-    C-q TAB
+```
+C-q TAB
+```
 
 ## Indent Marked Region Rigidly
 
-    M-x (indent-rigidly (region-beginning) (region-end) tab-width))
+```
+M-x (indent-rigidly (region-beginning) (region-end) tab-width))
 
-    C-c >
+C-c >
+```
 
 ## Outdent Marked Region Rigidly
 
-    M-x (indent-rigidly (region-beginning) (region-end (* tab-width -1))
+```
+M-x (indent-rigidly (region-beginning) (region-end (* tab-width -1))
 
-    C-c <
+C-c <
+```
 
 ## Print buffer
 
-    M-x print-buffer
+```
+M-x print-buffer
+```
 
 # Screens
 
@@ -230,27 +292,39 @@ http://emacswiki.org/emacs/RegularExpression
 
 ### Split Window Verticaly
 
-    C-x 2
+```
+C-x 2
+```
 
 ## Split Window Horizontally
 
-    C-x 3
+```
+C-x 3
+```
 
 ### Next Window
 
-    C-x o
+```
+C-x o
+```
 
 ### Close Window
 
-    C-x 0
+```
+C-x 0
+```
 
 ### Grow Current Window
 
-    C-x ^
+```
+C-x ^
+```
 
 ### Shrink Current Window
 
-    M-x shrink-window
+```
+M-x shrink-window
+```
 
 Or switch windows and grow the other one.
 
@@ -258,47 +332,67 @@ Or switch windows and grow the other one.
 
 ### Create or Switch to Buffer
 
-    C-x b <name (default *scratch)>
+```
+C-x b <name (default *scratch)>
+```
 
 ### Set buffer mode
 
-    M-x <mode-name>
+```
+M-x <mode-name>
+```
 
 ### Start of Buffer
 
-    M-<
+```
+M-<
+```
 
 ### End of Buffer
 
-    M->
+```
+M->
+```
 
 ### Start of Line
 
-    C-a
+```
+C-a
+```
 
 ### End of Line
 
-    C-e
+```
+C-e
+```
 
 ### Delete
 
-    C-d
+```
+C-d
+```
 
 ### Delete trailing whitespace
 
-    M-x delete-trailing-whitespace
+```
+M-x delete-trailing-whitespace
+```
 
 ### Final Newline preference
 
-    M-: (setq require-final-newline t)
-    M-: (setq require-final-newline nil)
+```
+M-: (setq require-final-newline t)
+M-: (setq require-final-newline nil)
+```
 
 User may need to delete and reinsert last character (e.g. `>` in `</html>`)
 in order for preference to take effect.
 
 ### Cut Line
 
-    C-k
+```
+C-k
+```
 
 ### Sort lines
 
@@ -309,28 +403,38 @@ in order for preference to take effect.
 
 ## Variables
 
-    C-h v <name>
+```
+C-h v <name>
+```
 
 ## Hotkeys
 
-    C-h k <key>
+```
+C-h k <key>
+```
 
 # IRC
 
 ## Launch IRC
 
-    M-x irc
+```
+M-x irc
+```
 
 ## Join server
 
-    M-: (rcirc-connect server port nick
+```
+M-: (rcirc-connect server port nick
                    rcirc-default-user-name
                    rcirc-default-full-name
                    channels)
+```
 
 ## Leave room
 
-    /part
+```
+/part
+```
 
 # Alternatives
 
