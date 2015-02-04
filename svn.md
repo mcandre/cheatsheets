@@ -76,7 +76,7 @@ svn commit takes an optional `-m <message>` to enter the message directly into t
 # Clear away uncommitted changes
 
 ```
-$ svn revert <files or folders>
+$ svn revert -R <files or folders>
 ```
 
 # Reverse specific commits
