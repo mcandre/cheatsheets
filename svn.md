@@ -141,7 +141,7 @@ trunk
 
 You can display the current Subversion branch in your shell prompt by following the Svn Prompt setup instructions:
 
-https://home.regit.org/technical-articles/subversion-aware-prompt/
+https://gist.github.com/mcandre/32029ad1dc7a1ea3a830
 
 # Merge another branches' changes into current branch
 
