@@ -284,8 +284,9 @@ project (destination branch)$ git cherry-pick <desired-commit>
 ## Quick and dirty (no svn history)
 
 ```
-$ find . -type d -name .svn -exec rm -rf {} \;
-$ git init && git add . && git commit && git remote add origin <...> && git push
+$ cd project/
+project$ find . -type d -name .svn -exec rm -rf {} \;
+project$ git init && git add . && git commit && git remote add origin <...> && git push
 ```
 
 ## Slow and steady (keep svn history)
@@ -293,10 +294,15 @@ $ git init && git add . && git commit && git remote add origin <...> && git push
 This may require upgrading to latest Git (e.g., `brew install git`).
 
 ```
-$ git init
-$ git svn clone -r <revision start point>:HEAD <svn URL> .
-$ git remote add origin <...>
-$ git push
+$ cd svnproject/
+svnproject$ svn log --stop-on-copy .
+<revision start point>
+
+$ mkdir gitproject/
+gitproject$ git init
+gitproject$ git svn clone -r <revision start point>:HEAD <svn URL> .
+gitproject$ git remote add origin <...>
+gitproject$ git push
 ```
 
 # Alternatives
