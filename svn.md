@@ -179,7 +179,9 @@ See https://github.com/mcandre/cheatsheets/blob/master/git.md#convert-a-svn-repo
 * Beanstalk http://beanstalkapp.com/
 * SourceForge http://sourceforge.net/
 
-Subversion can also integrate with Git repositories with [git svn](https://www.kernel.org/pub/software/scm/git/docs/git-svn.html).
+Subversion can integrate with Git repositories with [git svn](https://www.kernel.org/pub/software/scm/git/docs/git-svn.html).
+
+Subversion can integrate with Mercurial repositories with [hgsubversion](https://bitbucket.org/durin42/hgsubversion/overview/).
 
 # Alternatives
 
