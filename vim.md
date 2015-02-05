@@ -377,6 +377,12 @@ Control+w, Control+w
 Control+d
 ```
 
+# Repositories
+
+* Vim Scripts http://www.vim.org/scripts/index.php
+
+[Vundle](https://github.com/gmarik/Vundle.vim) is a package manager than can help organize plugins from many different repositories.
+
 # Alternatives
 
 * [vi](http://thomer.com/vi/vi.html) is a precursor to Vim, often installed by default on Unix systems like busybox.

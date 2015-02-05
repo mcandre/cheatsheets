@@ -448,6 +448,14 @@ M-: (rcirc-connect server port nick
 /part
 ```
 
+# Repositories
+
+* MELPA http://melpa.org/#/
+* Marmalade https://marmalade-repo.org/
+* GNU ELPA https://elpa.gnu.org/
+
+Emacs [Cask](https://github.com/cask/cask) is a package manager than can help organize plugins from many different repositories.
+
 # Alternatives
 
 * [Nano](https://github.com/mcandre/cheatsheets/blob/master/nano.md) has a much easier learning curve than Emacs.

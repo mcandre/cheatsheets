@@ -310,6 +310,18 @@ gitproject$ git remote add origin <...>
 gitproject$ git push
 ```
 
+# Repositories
+
+* GitHub https://github.com/
+* BitBucket https://bitbucket.org/
+* GitLab https://about.gitlab.com/
+* Google Code https://code.google.com/
+* Assembla https://www.assembla.com/home
+* Beanstalk http://beanstalkapp.com/
+* Gitorious https://gitorious.org/
+* repo.or.cz http://repo.or.cz/
+* SourceForge http://sourceforge.net/
+
 # Alternatives
 
 * [Mercurial](http://mercurial.selenic.com/)

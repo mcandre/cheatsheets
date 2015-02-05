@@ -171,6 +171,14 @@ v1.0
 
 See https://github.com/mcandre/cheatsheets/blob/master/git.md#convert-a-svn-repo-to-git
 
+# Repositories
+
+* GitHub https://github.com/
+* Google Code https://code.google.com/
+* Assembla https://www.assembla.com/home
+* Beanstalk http://beanstalkapp.com/
+* SourceForge http://sourceforge.net/
+
 # Alternatives
 
 * [Git](https://github.com/mcandre/cheatsheets/blob/master/git.md)
