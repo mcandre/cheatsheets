@@ -301,6 +301,11 @@ svnproject$ svn log --stop-on-copy .
 $ mkdir gitproject/
 gitproject$ git init
 gitproject$ git svn clone -r <revision start point>:HEAD <svn URL> .
+```
+
+Create a remote on GitHub/GitLab/BitBucket/Google Code, etc. Then:
+
+```
 gitproject$ git remote add origin <...>
 gitproject$ git push
 ```
