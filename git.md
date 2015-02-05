@@ -263,6 +263,18 @@ If you are quick enough, this will alter Git history on the remote before anyone
 
 But in many cases, this will result in a very awkward state, almost corrupting your fellow Git users' Git histories.
 
+# Delete a local branch
+
+```
+$ git branch -d <branch>
+```
+
+# Delete a remote branch
+
+```
+$ git push origin :<branch>
+```
+
 # Reverse specific commits
 
 Generally, the safer option is to revert the commit, a sort of Git Undo operation:
