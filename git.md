@@ -322,6 +322,8 @@ gitproject$ git push
 * repo.or.cz http://repo.or.cz/
 * SourceForge http://sourceforge.net/
 
+Git can integrate with Subversion repositories with [git svn](https://www.kernel.org/pub/software/scm/git/docs/git-svn.html).
+
 # Alternatives
 
 * [Mercurial](http://mercurial.selenic.com/)
