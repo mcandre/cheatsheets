@@ -322,9 +322,13 @@ gitproject$ git push
 * repo.or.cz http://repo.or.cz/
 * SourceForge http://sourceforge.net/
 
-Git can integrate with Subversion repositories with [git svn](https://www.kernel.org/pub/software/scm/git/docs/git-svn.html).
+## Integration
 
-Git can integrate with Mercurial repositories with [hg-git](http://hg-git.github.io/).
+Git can integrate with non-Git repositories:
+
+* git- svn https://www.kernel.org/pub/software/scm/git/docs/git-svn.html
+* hg-git http://hg-git.github.io/
+* darcs-to-git https://github.com/purcell/darcs-to-git
 
 # Alternatives
 
