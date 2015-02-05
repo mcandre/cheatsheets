@@ -263,16 +263,10 @@ If you are quick enough, this will alter Git history on the remote before anyone
 
 But in many cases, this will result in a very awkward state, almost corrupting your fellow Git users' Git histories.
 
-# Delete a local branch
+# Delete a local or remote branch
 
 ```
-$ git branch -d <branch>
-```
-
-# Delete a remote branch
-
-```
-$ git push origin :<branch>
+$ git branch -d [<remote>/]<branch>
 ```
 
 # Reverse specific commits
