@@ -1,4 +1,4 @@
-# Vim Cheatsheet
+# Vi/Vim Cheatsheet
 
 Andrew Pennebaker
 
