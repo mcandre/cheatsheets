@@ -198,7 +198,7 @@ D
 ## Cut selected text
 
 1. Use Visual mode (`v`) and arrow keys to select text.
-2. `d`
+2. `d` - Cut, `y` - Copy
 
 ## Copy Lines
 
