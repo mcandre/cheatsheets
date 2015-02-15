@@ -163,6 +163,12 @@ You can display the current Git branch in your shell prompt by following the Git
 
 https://github.com/git/git/blob/master/contrib/completion/git-prompt.sh
 
+# Git Tab Completion
+
+Tab completion for branches and other git commands can be added to your shell by following the Git Completion instructions:
+
+https://raw.githubusercontent.com/git/git/master/contrib/completion/git-completion.bash
+
 # Merge another branches' changes into current branch
 
 ```
