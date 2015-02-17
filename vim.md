@@ -298,6 +298,12 @@ gg
 G
 ```
 
+Or
+
+```
+G$
+```
+
 ## Insert Line Below
 
 ```
