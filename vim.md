@@ -155,12 +155,6 @@ n
 
 `n` next match.
 
-## Replace
-
-```
-:s/<term>/<replacement>/g
-```
-
 ## Replace Global
 
 ```
