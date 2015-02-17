@@ -360,10 +360,10 @@ Control+w, Control+w
 :hide
 ```
 
-## Nerd Commenter
+## Toggle comment
 
 1. Select text with Visual mode (`v`).
-2. Press `<Leader>c<space>` (`\c `).
+2. Press `gc`.
 
 ## Open Shell
 
