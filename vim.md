@@ -179,6 +179,10 @@ n
 :grep <term> *.?<file extensions>
 ```
 
+## Hotkey syntax
+
+http://vimhelp.appspot.com/intro.txt.html#key-notation
+
 ## Clipboard
 
 Vim will integrate with the OS clipboard, provided that +clipboard is enabled at compile time, and:

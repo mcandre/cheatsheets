@@ -216,6 +216,10 @@ Emacs supports a regex syntax similar to PPCRE.
 
 http://emacswiki.org/emacs/RegularExpression
 
+## Hotkey Syntax
+
+https://www.gnu.org/software/emacs/manual/html_node/elisp/Key-Sequences.html#Key-Sequences
+
 ## Select All
 
 ```
