@@ -123,6 +123,18 @@ gitbash$ vim <file/dir>
 :q!
 ```
 
+## Quit all windows
+
+```
+:qa
+```
+
+## Forcibly quit all windows
+
+```
+:qa!
+```
+
 ## Undo
 
 ```
