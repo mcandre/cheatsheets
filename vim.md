@@ -376,10 +376,15 @@ Control+w, Control+w
 :hide
 ```
 
-## Toggle comment
+## Toggle commenting
 
 1. Select text with Visual mode (`v`).
 2. Press `gc`.
+
+Or
+
+1. Navigate to the desired line.
+2. Press `gcc`.
 
 ## Open Shell
 
