@@ -222,6 +222,12 @@ yy[n]
 p
 ```
 
+## Paste Lines (Insert)
+
+```
+Control+r, +
+```
+
 # Navigation
 
 ## Move Cursor
@@ -397,6 +403,34 @@ Or
 ```
 Control+d
 ```
+
+# Fix common problems
+
+Vim doesn't have the most intuitive defaults. Here are some snippets you can insert into your `$HOME/.vimrc` / `$HOME/_vimrc` in order to fix common problems.
+
+## Delete (backspace) broken in insert mode in Mac OS X
+
+`set backspace=2`
+
+Or use MacVim
+
+## Lack of line numbers
+
+`set number`
+
+## Lack of syntax highlighting
+
+`syntax on`
+
+## Code folding too deep
+
+```
+set foldmethod=syntax
+set foldcolumn=1
+set foldlevelstart=20
+```
+
+For more helpful snippets, see https://github.com/mcandre/dotfiles/blob/master/.vimrc
 
 # Repositories
 
