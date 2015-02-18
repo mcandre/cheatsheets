@@ -77,6 +77,12 @@ M-! <command>
 M-p, RET
 ```
 
+## Repeat next command
+
+```
+M-n, RET
+```
+
 ## Ncurses Terminals
 
 For ncurses-style programs that erase the screen, use:
