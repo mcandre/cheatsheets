@@ -198,4 +198,5 @@ $ wget http://<host>:5984/<authority>
 
 * [curl](http://curl.haxx.se/) outputs to STDOUT by default, making it a popular choice for debugging REST services.
 * [lftp](http://lftp.yar.ru/) specializes in FTP transfers.
+* [scp](http://linux.die.net/man/1/scp) specializes in SSH file transfers.
 * [WWW::Mechanize](http://search.cpan.org/~ether/WWW-Mechanize-1.74/lib/WWW/Mechanize.pm) is a Perl library for fine-tuned Web crawling.
