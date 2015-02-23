@@ -172,9 +172,27 @@ wget can convert absolute links to local, so the mirror behaves as a more self-c
 -R "*avatar*,*\?*,*_[0-9][0-9][0-9].*"
 ```
 
-## Example scripts
+# Example scripts
 
 [politerips](https://github.com/mcandre/politerips/tree/master/lib) offers example shell scripts for crawling websites with wget.
+
+# Unofficial protocols
+
+## HDFS
+
+Instead of `hdfs://<host>:8020/<path>`, use:
+
+```
+$ wget http://<host>:50075/streamFile/<path>
+```
+
+## CouchDB
+
+Instead of `couchdb://<authority>`, use:
+
+```
+$ wget http://<host>:5984/<authority>
+```
 
 # Alternatives
 
