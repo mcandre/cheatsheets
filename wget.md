@@ -12,6 +12,8 @@ GNU wget is a command line Web page downloader
 
 [GNU wget manual](http://www.gnu.org/software/wget/manual/)
 
+[Linux man wget](http://linux.die.net/man/1/wget)
+
 # Install
 
 ```
