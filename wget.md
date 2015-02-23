@@ -86,10 +86,16 @@ $ wget -c [flags]
 
 # Crawling Websites
 
-wget can create a *mirror*, a local copy of a website.
+wget offers `-m` to *mirror* a website, downloading a local copy of each remote file.
 
 ```
 $ wget -m http://www.gnu.org/software/wget/manual/
+```
+
+wget users often use `-mpNHk`, a bundle of several options, to intuitively crawl a website.
+
+```
+$ wget -mpNHk http://www.gnu.org/software/wget/manual/
 ```
 
 ## Traverse related domains
