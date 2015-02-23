@@ -114,6 +114,6 @@ $ curl http://<host>:5984/<authority>
 # Alternatives
 
 * [wget](https://github.com/mcandre/cheatsheets/blob/master/wget.md) specializes in webcrawling.
-* [lftp](http://lftp.yar.ru/) specializes in FTP transfers.
+* [lftp](https://github.com/mcandre/cheatsheets/blob/master/lftp.md) specializes in FTP transfers.
 * [scp](http://linux.die.net/man/1/scp) specializes in SSH file transfers.
 * [WWW::Mechanize](http://search.cpan.org/~ether/WWW-Mechanize-1.74/lib/WWW/Mechanize.pm) is a Perl library for fine-tuned Web crawling.
