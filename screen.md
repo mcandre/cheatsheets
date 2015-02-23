@@ -25,7 +25,7 @@ In Mac OS X, GNU screen is a built-in program.
 # Configure
 
 ```
-~/.screenrc
+$HOME/.screenrc
 ```
 
 # Hotkey Notation

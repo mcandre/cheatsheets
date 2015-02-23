@@ -35,12 +35,12 @@ C:\> chocolatey install Emacs
 # Configure
 
 ```
-~/.emacs
+$HOME/.emacs
 ```
 
 [Reference Dotfile](https://github.com/mcandre/dotfiles/blob/master/.emacs)
 
-When troubleshooting Emacs, it is often useful to skip loading `~/.emacs` configuration:
+When troubleshooting Emacs, it is often useful to skip loading `$HOME/.emacs` configuration:
 
 ```
 $ emacs -Q ...

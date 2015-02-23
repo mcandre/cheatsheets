@@ -31,7 +31,7 @@ C:\> chocolatey install tortoisesvn
 # Configure
 
 ```
-~/.subversion/config
+$HOME/.subversion/config
 ```
 
 [Reference Dotfile](https://github.com/jspahrsummers/dotfiles/blob/master/.subversion/config)

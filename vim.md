@@ -37,9 +37,9 @@ By default, Ubuntu uses the `vim.tiny`, which lacks support for arrow key naviga
 # Configure
 
 ```
-~/.vimrc
+$HOME/.vimrc
 
-~/_vimrc
+%HOME%/_vimrc
 ```
 
 [Reference Dotfile](https://github.com/mcandre/dotfiles/blob/master/.vimrc)

@@ -33,12 +33,12 @@ C:\> chocolatey install git
 # Configure
 
 ```
-~/.gitconfig
+$HOME/.gitconfig
 ```
 
 [Reference Dotfile](https://gist.github.com/pksunkara/988716)
 
-`~/.gitconfig` can be edited manually, and/or specific fields can be set with `git config` commands:
+`$HOME/.gitconfig` can be edited manually, and/or specific fields can be set with `git config` commands:
 
 ```
 $ git config --global user.name "<Your Name>"

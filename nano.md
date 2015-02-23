@@ -28,7 +28,7 @@ Nano is a relatively easy to learn command line text editor.
 
 # Configure
 
-    ~/.nanorc
+    $HOME/.nanorc
 
 [Reference Dotfile](https://github.com/mcandre/dotfiles/blob/master/.nanorc)
 
