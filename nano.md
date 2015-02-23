@@ -18,17 +18,21 @@ Nano is a relatively easy to learn command line text editor.
 
 # Install
 
-    $ apt-get install nano
+```
+$ apt-get install nano
 
-    $ brew install nano
+$ brew install nano
 
-    C:\> chocolatey install nano
+C:\> chocolatey install nano
+```
 
 [nano-2.2.5.msi](http://www.yellosoft.us/helpers#nano)
 
 # Configure
 
-    $HOME/.nanorc
+```
+$HOME/.nanorc
+```
 
 [Reference Dotfile](https://github.com/mcandre/dotfiles/blob/master/.nanorc)
 
@@ -45,93 +49,129 @@ Additional syntax highlighters:
 
 ## Open File
 
-    $ nano <file>
+```
+$ nano <file>
 
-    $ nano
-    ^R <file>
+$ nano
+^R <file>
+```
 
 ### Windows
 
-    C:\> nano <file>
+```
+C:\> nano <file>
 
-    gitbash$ nano <file>
+gitbash$ nano <file>
+```
 
 ## Save As...
 
-    ^O
+```
+^O
+```
 
 ## Quit
 
-    ^X
+```
+^X
+```
 
 ## Undo/Redo
 
-    M-U
+```
+M-U
 
-    M-E
+M-E
+```
 
 ## Cancel Nano Command
 
-    ^C
+```
+^C
+```
 
 ## Next Search Result
 
-    ^W
+```
+^W
+```
 
 ## Find and Replace
 
-    ^\
-    A
+```
+^\
+A
+```
 
 ## Regular Expressions
 
-    ^W
-    M-R
+```
+^W
+M-R
 
-    ^\
-    M-R
+^\
+M-R
+```
 
 ## Cut
 
-    ^K
+```
+^K
+```
 
 ## Copy
 
-    M-6
+```
+M-6
+```
 
 ## Paste
 
-    ^U
+```
+^U
+```
 
 ## Set mark
 
-    M-A
+```
+M-A
+```
 
 ## Indent/Dedent Line or Marked Block Rigidly
 
-    M-}
+```
+M-}
 
-    M-{
+M-{
+```
 
 ## Auto-Indent Current Line or Marked Region
 
-    TAB
+```
+TAB
+```
 
 ## Start/End of File
 
-    M-\
+```
+M-\
 
-    M-/
+M-/
+```
 
 ## Start/End of Line
 
-    ^A
+```
+^A
 
-    ^E
+^E
+```
 
 ### Delete
 
-    DEL
+```
+DEL
+```
 
 # Alternatives
 
