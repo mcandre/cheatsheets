@@ -57,6 +57,12 @@ $ less index.html
 $ wget -O <filename> <URL>
 ```
 
+## Add a directory prefix
+
+```
+-P <name>
+```
+
 ## Output to STDOUT
 
 ```
@@ -86,10 +92,48 @@ wget can create a *mirror*, a local copy of a website.
 $ wget -m http://www.gnu.org/software/wget/manual/
 ```
 
+## Traverse related domains
+
+```
+-H
+```
+
+## Specify allowed domains
+
+```
+-D<domain>,<domain>,<domain>,...
+```
+
 ## Wait between requests
 
 ```
 -w <seconds>
+```
+
+## Convert links
+
+wget can convert absolute links to local, so the mirror behaves as a more self-contained version of the original website.
+
+```
+-k
+```
+
+## Include related media files
+
+```
+-p
+```
+
+## Preserve timestamps
+
+```
+-N
+```
+
+## Save all files in the same directory
+
+```
+-nd
 ```
 
 ## Limit traversal to child and sister directories
@@ -97,6 +141,22 @@ $ wget -m http://www.gnu.org/software/wget/manual/
 ```
 -np | --no-parent
 ```
+
+## Include directories
+
+```
+-I img/,meme/
+```
+
+## Include file extensions
+
+```
+-A .html,.htm,.jpg,.jpeg,.gif,.png
+```
+
+## Example scripts
+
+[politerips](https://github.com/mcandre/politerips/tree/master/lib) offers example shell scripts for crawling websites with wget.
 
 # Alternatives
 
