@@ -145,19 +145,31 @@ wget can convert absolute links to local, so the mirror behaves as a more self-c
 ## Limit traversal to child and sister directories
 
 ```
--np | --no-parent
+-np
 ```
 
-## Include directories
+## Whitelist directory patterns
 
 ```
 -I img/,meme/
 ```
 
-## Include file extensions
+## Blacklist directory patterns
+
+```
+-X thumbs/
+```
+
+## Whitelist file patterns
 
 ```
 -A .html,.htm,.jpg,.jpeg,.gif,.png
+```
+
+## Blacklist file patterns
+
+```
+-R "*avatar*,*\?*,*_[0-9][0-9][0-9].*"
 ```
 
 ## Example scripts
