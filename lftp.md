@@ -30,6 +30,10 @@ $HOME/.lftprc
 
 [Reference Dotfile](https://github.com/mcandre/dotfiles/blob/master/.lftprc)
 
+## Tab completion
+
+See [lftp-completion](https://github.com/mcandre/lftp-completion)
+
 # Supported protocols
 
 * FTP
