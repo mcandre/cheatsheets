@@ -12,7 +12,7 @@ GNU wget is a command line Web page downloader
 
 [GNU wget manual](http://www.gnu.org/software/wget/manual/)
 
-[Linux man wget](http://linux.die.net/man/1/wget)
+[man wget](http://linux.die.net/man/1/wget)
 
 # Install
 
@@ -81,7 +81,7 @@ $ wget -c [flags]
 ## Specify a user agent string
 
 ```
--U <string>
+-U Firefox
 ```
 
 # Crawling Websites
@@ -196,7 +196,7 @@ $ wget http://<host>:5984/<authority>
 
 # Alternatives
 
-* [curl](http://curl.haxx.se/) outputs to STDOUT by default, making it a popular choice for debugging REST services.
+* [curl](https://github.com/mcandre/cheatsheets/blob/master/curl.md) outputs to STDOUT by default, making it a popular choice for debugging REST services.
 * [lftp](http://lftp.yar.ru/) specializes in FTP transfers.
 * [scp](http://linux.die.net/man/1/scp) specializes in SSH file transfers.
 * [WWW::Mechanize](http://search.cpan.org/~ether/WWW-Mechanize-1.74/lib/WWW/Mechanize.pm) is a Perl library for fine-tuned Web crawling.
