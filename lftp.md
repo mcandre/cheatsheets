@@ -30,7 +30,7 @@ $HOME/.lftprc
 
 [Reference Dotfile](https://github.com/mcandre/dotfiles/blob/master/.lftprc)
 
-## Tab completion
+## Tab completion for bookmarks
 
 See [lftp-completion](https://github.com/mcandre/lftp-completion)
 
