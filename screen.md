@@ -100,3 +100,7 @@ Screen can resume a running window, e.g. once an SSH session has been reestablis
 ```
 $ screen -x <name>
 ```
+
+# Alternatives
+
+* [tmux](http://tmux.sourceforge.net/)
