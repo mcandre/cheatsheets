@@ -107,7 +107,7 @@ $ wget -mpNHk http://www.gnu.org/software/wget/manual/
 ## Specify allowed domains
 
 ```
--D<domain>,<domain>,<domain>,...
+-D .media.tumblr.com,media.tumblr.com,linuxinthewild.tumblr.com
 ```
 
 ## Wait between requests
