@@ -141,8 +141,18 @@ trunk
 
 ```
 $ svn delete <branch URL> -m <message>
-$ cd <local copy of branch>
+```
+
+Then
+
+```
 $ svn up
+```
+
+Or
+
+```
+$ rm -rf <local copy of the branch>
 ```
 
 # Svn Prompt
