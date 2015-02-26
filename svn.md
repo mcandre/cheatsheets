@@ -137,10 +137,12 @@ myfeature
 trunk
 ```
 
-# Delete remote and local branch
+# Delete branches and/or tags
+
+In Subversion, branches and tags are not special, they're just folders that happen to be used as branches or tags. Therefore, they can be deleted with:
 
 ```
-$ svn delete <branch URL> -m <message>
+$ svn delete <branch or tag URL> -m <message>
 ```
 
 Then
@@ -152,7 +154,7 @@ $ svn up
 Or
 
 ```
-$ rm -rf <local copy of the branch>
+$ rm -rf <local copy of branch or tag>
 ```
 
 # Svn Prompt
