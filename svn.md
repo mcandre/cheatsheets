@@ -79,12 +79,19 @@ svn commit takes an optional `-m <message>` to enter the message directly into t
 $ svn revert -R <files or folders>
 ```
 
-# Reverse specific commits
+# Revert a range of commits
+
+```
+$ svn merge -c HEAD:r<commit> .
+$ svn commit
+```
+
+# Revert specific commits
 
 A safe option is to unmerge a commit, a sort of Subversion Undo operation:
 
 ```
-$ svn merge -c<commit> .
+$ svn merge -c -<commit>,-<commit>,-<commit>... .
 $ svn commit
 ```
 
