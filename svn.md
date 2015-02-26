@@ -137,6 +137,14 @@ myfeature
 trunk
 ```
 
+# Delete remote and local branch
+
+```
+$ svn delete <branch URL> -m <message>
+$ cd <local copy of branch>
+$ svn up
+```
+
 # Svn Prompt
 
 You can display the current Subversion branch in your shell prompt by following the Svn Prompt setup instructions:
