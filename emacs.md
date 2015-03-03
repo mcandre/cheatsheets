@@ -141,6 +141,12 @@ gitbash$ emacs <file/dir> &
 C-x C-s
 ```
 
+### Set line endings (LF, CRLF, CR)
+
+```
+M-x set-buffer-file-coding-system utf-8-[unix|dos|mac]
+```
+
 ## Save As...
 
 ```
