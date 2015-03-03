@@ -83,6 +83,12 @@ $ curl -o <filename> <URL>
 -d '{ ... }'
 ```
 
+Or
+
+```
+-d @<JSON file>
+```
+
 # Crawling Websites
 
 See [curlmirror.pl](http://curl.haxx.se/programs/curlmirror.txt).
