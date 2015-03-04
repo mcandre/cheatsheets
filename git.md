@@ -18,6 +18,8 @@ Git is a decentralized version control system.
 
 [Git flow](http://nvie.com/posts/a-successful-git-branching-model/)
 
+[hyperglot](http://hyperpolyglot.org/version-control#vcs)
+
 # Install
 
 ```

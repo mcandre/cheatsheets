@@ -14,6 +14,8 @@ Subversion is a tried-and-true version control system.
 
 [man svn](http://man.cx/svn)
 
+[hyperglot](http://hyperpolyglot.org/version-control#vcs)
+
 # Install
 
 On some operating systems (Mac OS X), Subversion is built-in. Otherwise, install with:
