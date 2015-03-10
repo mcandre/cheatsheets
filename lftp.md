@@ -18,6 +18,8 @@ lftp is a command line FTP file transfer client.
 $ apt-get install lftp
 
 $ brew install lftp
+
+C:\> chocolatey install lftp
 ```
 
 [lftp-for-windows](http://nwgat.ninja/lftp-for-windows/)
