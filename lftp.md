@@ -12,6 +12,8 @@ lftp is a command line FTP file transfer client.
 
 [man lftp](http://lftp.yar.ru/lftp-man.html)
 
+[LFTP Pocket Reference](http://mcandre.gitbooks.io/lftp-pocket-reference/)
+
 # Install
 
 ```
