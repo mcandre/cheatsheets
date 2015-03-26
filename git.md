@@ -346,7 +346,7 @@ Add an svn remote to `.git/config`:
   fetch = :refs/remotes/<branch name>
 ```
 
-Uupdate git refs:
+Update git refs:
 
 ```
 $ git svn fetch --fetch-all
