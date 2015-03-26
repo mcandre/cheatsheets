@@ -330,6 +330,40 @@ gitproject$ git remote add origin <...>
 gitproject$ git push
 ```
 
+## Import a svn branch
+
+View current branch information:
+
+```
+$ git branch -a
+```
+
+Add an svn remote to `.git/config`:
+
+```
+[svn-remote "svn-<branch name>"]
+  url = <branch URL>
+  fetch = :refs/remotes/<branch name>
+```
+
+Uupdate git refs:
+
+```
+$ git svn fetch --fetch-all
+```
+
+Checkout the remote svn branch as a local git branch:
+
+```
+$ git checkout -b <branch name> remotes/<branch name>
+```
+
+Push new git branch to git remote:
+
+```
+$ git push -u origin <branch name>
+```
+
 # Repositories
 
 * GitHub https://github.com/
