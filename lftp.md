@@ -52,7 +52,7 @@ See [lftp-completion](https://github.com/mcandre/lftp-completion)
 # Connect to server
 
 ```
-$ lftp <URL>
+$ lftp [-u <username>,<password>] <URL>
 ```
 
 # Create a bookmark
