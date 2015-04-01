@@ -58,7 +58,7 @@ $ lftp <URL>
 # Create a bookmark
 
 ```
-> bookmark <name>
+> bookmark add <name>
 ```
 
 # Connect to bookmarked server
