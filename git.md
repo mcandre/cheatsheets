@@ -299,6 +299,29 @@ $ git checkout <destination-branch>
 project (destination branch)$ git cherry-pick <desired-commit>
 ```
 
+# Submodules
+
+## Create a submodule
+
+```
+$ git submodule init
+$ git submodule add <git URL>
+```
+
+# Update submodules
+
+```
+$ git submodule foreach git pull
+```
+
+## Stage, commit, and push submodule files and changes
+
+```
+$ git add <path to submodule>
+$ git commit
+$ git push
+```
+
 # Convert a svn repo to git
 
 ## Quick and dirty (no svn history)
