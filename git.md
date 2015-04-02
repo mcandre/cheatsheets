@@ -308,7 +308,7 @@ $ git submodule init
 $ git submodule add <git URL>
 ```
 
-# Update submodules
+## Update submodules
 
 ```
 $ git submodule foreach git pull
