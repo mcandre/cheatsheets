@@ -283,6 +283,18 @@ $ git branch -d <branch name>
 $ git push origin --delete <branch name>
 ```
 
+# Delete a local tag
+
+```
+$ git tag -d <tag>
+```
+
+# Delete a remote tag
+
+```
+$ git push --delete origin <tag>
+```
+
 # Reverse specific commits
 
 Generally, the safer option is to revert the commit, a sort of Git Undo operation:
