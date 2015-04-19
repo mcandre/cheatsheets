@@ -47,6 +47,12 @@ $HOME/.curlrc
 $ curl <URL> | less
 ```
 
+## Handle special URL characters
+
+```
+$ curl "<URL>"
+```
+
 ## Save as
 
 ```

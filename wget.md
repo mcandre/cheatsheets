@@ -51,6 +51,12 @@ $ less index.html
 <!doctype html>...
 ```
 
+## Handle special URL characters
+
+```
+$ wget "<URL>"
+```
+
 ### Save as
 
 ```
