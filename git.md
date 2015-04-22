@@ -424,3 +424,4 @@ Git can integrate with non-Git repositories:
 * [Mercurial](http://mercurial.selenic.com/)
 * [Subversion](https://subversion.apache.org/)
 * [Darcs](http://darcs.net/)
+* [Rsync](https://github.com/mcandre/cheatsheets/blob/master/rsync.git)
