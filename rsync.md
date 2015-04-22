@@ -39,7 +39,6 @@ Where:
 
 * `-a` means "synchronize all aspects of a file, including contents, name, permissions, and timestamp
 * `<source>` and `<destination>` may be local file paths, SSH-compatible file paths, or a mix of both.
-* If rsync is interrupted, repeat the last rsync command to continue.
 
 ## Upload
 
@@ -51,6 +50,19 @@ $ rsync -a books me@mybookserver.com:/home/me/
 
 ```
 $ rsync -a me@mybookserver.com:/home/me/books .
+```
+
+## Resume
+
+If Rsync is interrupted, repeat the last command to continue the transfer.
+
+```
+$ rsync -a books me@mybookserver.com:/home/me/
+<network disconnection occurs>
+Control+C
+<network connection restored>
+$ rsync -a books me@mybookserver.com:/home/me/
+$
 ```
 
 ## Show overall progress bar
