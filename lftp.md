@@ -167,3 +167,4 @@ cache flush
 * [curl](https://github.com/mcandre/cheatsheets/blob/master/curl.md) outputs to STDOUT by default, making it a popular choice for debugging REST services.
 * [scp](http://linux.die.net/man/1/scp) specializes in SSH file transfers.
 * [WWW::Mechanize](http://search.cpan.org/~ether/WWW-Mechanize-1.74/lib/WWW/Mechanize.pm) is a Perl library for fine-tuned Web crawling.
+* [Rsync](https://github.com/mcandre/cheatsheets/blob/master/rsync.git)
