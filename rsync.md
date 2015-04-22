@@ -6,7 +6,7 @@ https://github.com/mcandre/cheatsheets/blob/master/rsync.md
 
 # About
 
-Rsync is a fast, fault-tolerant, file and folder synchronization system.
+Rsync is an efficient, fault-tolerant, file and folder synchronization system.
 
 # Documentation
 
@@ -43,10 +43,18 @@ Where:
 ## Local machine copy
 
 ```
-$ rsync -a books books-backup
+$ rsync -a books /mount/thumb-drive
 ```
 
-`cp -r books books-backup` may be faster, but Rsync can resume a long or corrupted transfer, e.g. to/from a USB drive.
+`cp -r books books-backup` may be faster, but Rsync can resume a long or corrupted transfer, e.g. if a USB drive disconnects. Also, Rsync can show an overall progress bar, whereas `cp` with `pv` would only show a per-file progress bar.
+
+## Show overall progress bar
+
+```
+--info=progress2
+```
+
+Requires rsync 3.1.0+.
 
 ## Upload
 
@@ -88,14 +96,6 @@ $ rsync -a books me@mybookserver.com:/home/me/
 $
 ```
 
-## Show overall progress bar
-
-```
---info=progress2
-```
-
-Requires rsync 3.1.0+.
-
 # Service
 
 ## Configure
@@ -130,6 +130,7 @@ $ sudo killall rsync
 
 # Alternatives
 
-* [SSH](http://www.openssh.com/) can be even faster, especially for highly reliable networks.
+* [cp -r](https://en.wikipedia.org/wiki/Cp_%28Unix%29) is faster for local files.
+* [SSH](http://www.openssh.com/) is faster when interruptions are rare.
 * [FTP](https://github.com/mcandre/cheatsheets/blob/master/lftp.md) can be faster, parallelizing individual file transfers.
 * [Git](https://github.com/mcandre/cheatsheets/blob/master/git.md) and other version control systems offer file histories.
