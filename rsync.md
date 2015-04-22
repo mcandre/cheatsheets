@@ -40,6 +40,14 @@ Where:
 * `-a` means "synchronize all aspects of a file, including contents, name, permissions, and timestamp
 * `<source>` and `<destination>` may be local file paths, SSH-compatible file paths, or a mix of both.
 
+## Local machine copy
+
+```
+$ rsync -a books books-backup
+```
+
+`cp -r books books-backup` may be faster, but Rsync can resume a long or corrupted transfer, e.g. to/from a USB drive.
+
 ## Upload
 
 ```
@@ -51,6 +59,21 @@ $ rsync -a books me@mybookserver.com:/home/me/
 ```
 $ rsync -a me@mybookserver.com:/home/me/books .
 ```
+
+## Remote-to-Remote
+
+```
+$ rsync -a me@mybookserver.com/home/me/books/rsync-for-dummies.epub me@mybookpublisher.com/var/www/published/
+```
+
+## Pause
+
+```
+$ rsync -a books me@mybookserver.com:/home/me/
+Control+C
+```
+
+Rsync is fault-tolerant, able to easily resume an interrupted transfer. So feel free to pause (kill) an Rsync transfer if you ever want to.
 
 ## Resume
 
@@ -107,6 +130,6 @@ $ sudo killall rsync
 
 # Alternatives
 
-* [SSH](http://www.openssh.com/)
-* [FTP](https://github.com/mcandre/cheatsheets/blob/master/lftp.md)
-* [Git](https://github.com/mcandre/cheatsheets/blob/master/git.md)
+* [SSH](http://www.openssh.com/) can be even faster, especially for highly reliable networks.
+* [FTP](https://github.com/mcandre/cheatsheets/blob/master/lftp.md) can be faster, parallelizing individual file transfers.
+* [Git](https://github.com/mcandre/cheatsheets/blob/master/git.md) and other version control systems offer file histories.
