@@ -20,6 +20,8 @@ Git is a decentralized version control system.
 
 [hyperglot](http://hyperpolyglot.org/version-control#vcs)
 
+[Git/SSH Access FAQ](https://gist.github.com/mcandre/29e7aad47c0fcff9a6d1)
+
 # Install
 
 ```
