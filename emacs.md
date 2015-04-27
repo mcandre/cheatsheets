@@ -296,6 +296,12 @@ M-x (indent-rigidly (region-beginning) (region-end (* tab-width -1))
 C-c <
 ```
 
+## Deleting trailing whitespace
+
+```
+M-: (delete-trailing-whitespace)
+```
+
 ## Print buffer
 
 ```
