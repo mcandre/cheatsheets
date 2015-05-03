@@ -68,12 +68,6 @@ $ rsync -a books me@mybookserver.com:/home/me/
 $ rsync -a me@mybookserver.com:/home/me/books .
 ```
 
-## Remote-to-Remote
-
-```
-$ rsync -a me@mybookserver.com/home/me/books/rsync-for-dummies.epub me@mybookpublisher.com/var/www/published/
-```
-
 ## Pause
 
 ```
