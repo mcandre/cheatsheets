@@ -262,11 +262,32 @@ C-y
 C-space
 ```
 
+## Go to Line
+
+```
+M-g g <line number> RET
+```
+
+## Go to Column
+
+```
+M-g TAB <line number> RET
+```
+
+## Toggle Fold Current Block
+
+```
+M-x hs-minor-mode RET
+M-x hs-toggle-hiding RET
+```
+
 ## Toggle Comment Marked Region
 
 ```
-M-;
+M-x evilnc-comment-or-uncomment-lines RET
 ```
+
+Requires [evil-nerd-commenter](https://github.com/redguardtoo/evil-nerd-commenter) plugin.
 
 ## Auto-Indent Current Line or Marked Region
 
