@@ -202,6 +202,14 @@ v1.0
 $ svn diff -r<start revision>:<end revision> > svn.patch
 ```
 
+# Import a patch file
+
+```
+$ patch -p0 -i <patch file>
+$ svn add
+$ svn commit
+```
+
 # Convert a svn repo to git
 
 See https://github.com/mcandre/cheatsheets/blob/master/git.md#convert-a-svn-repo-to-git
