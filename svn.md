@@ -196,6 +196,12 @@ $ svn ls ^/tags
 v1.0
 ```
 
+# Export a patch file
+
+```
+$ svn diff -r<start revision>:<end revision> > svn.patch
+```
+
 # Convert a svn repo to git
 
 See https://github.com/mcandre/cheatsheets/blob/master/git.md#convert-a-svn-repo-to-git
