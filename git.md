@@ -401,6 +401,21 @@ Push new git branch to git remote:
 $ git push -u origin <branch name>
 ```
 
+# Export a patch file
+
+```
+$ git diff <start commit>..<end commit> > git.patch
+```
+
+# Import a patch file
+
+```
+$ patch -p0 -i <patch file>
+$ git add .
+$ git commit
+$ git push
+```
+
 # Repositories
 
 * GitHub https://github.com/

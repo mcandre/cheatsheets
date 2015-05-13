@@ -206,7 +206,7 @@ $ svn diff -r<start revision>:<end revision> > svn.patch
 
 ```
 $ patch -p0 -i <patch file>
-$ svn add
+$ svn add .
 $ svn commit
 ```
 
