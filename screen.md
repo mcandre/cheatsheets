@@ -28,6 +28,10 @@ In Mac OS X, GNU screen is a built-in program.
 $HOME/.screenrc
 ```
 
+## Tab completion for session names
+
+See [screen-completion](https://github.com/mcandre/screen-completion)
+
 # Hotkey Notation
 
 * `C-` = `Control`
