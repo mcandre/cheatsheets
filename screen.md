@@ -107,4 +107,4 @@ $ screen -x <name>
 
 # Alternatives
 
-* [tmux](http://tmux.sourceforge.net/)
+* [tmux](https://github.com/mcandre/cheatsheets/blob/master/tmux.md)
