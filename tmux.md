@@ -29,6 +29,10 @@ $ brew install tmux
 $HOME/tmux.conf
 ```
 
+## Tab completion for session names
+
+See [tmux-completion](https://github.com/mcandre/tmux-completion)
+
 # Hotkey Notation
 
 * `C-` = `Control`
