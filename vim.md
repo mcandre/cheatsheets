@@ -358,16 +358,16 @@ x
 
 # Windows
 
-## Split Windows
+## Split Windows into Top vs Bottom
 
 ```
 Control+w, s
 ```
 
-## Switch Window Directionally
+## Switch Window into Left vs Right
 
 ```
-Control+W+(direction)
+Control+W, v
 ```
 
 ## Switch to Next Window
