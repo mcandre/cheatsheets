@@ -46,6 +46,51 @@ When troubleshooting Emacs, it is often useful to skip loading `$HOME/.emacs` co
 $ emacs -Q ...
 ```
 
+# Packages
+
+## Specify repositories in `~/.emacs`:
+
+```
+(require 'package)
+(setq package-archives
+      '(("melpa" . "https://melpa.org/packages/")
+        ("marmalade" . "https://marmalade-repo.org/packages/")
+        ("gnu" . "https://elpa.gnu.org/packages/")))
+(package-initialize)
+```
+
+## Install a package
+
+```
+M-: (package-install 'some-package-here)
+```
+
+## Setup use-package
+
+```
+M-: (package-install 'use-package)
+```
+
+Then configure `~/.emacs`:
+
+```
+(eval-when-compile
+  (require 'use-package))
+(require 'diminish)
+(require 'bind-key)
+```
+
+## Have use-package automatically install packages
+
+```
+(setq use-package-always-ensure t)
+
+(use-package apache-mode)
+(use-package clojure-mode)
+
+;; ...
+```
+
 # Hotkey Notation
 
 * `C-` = `Control`
@@ -497,7 +542,7 @@ M-: (rcirc-connect server port nick
 * Marmalade https://marmalade-repo.org/
 * GNU ELPA https://elpa.gnu.org/
 
-Emacs [Cask](https://github.com/cask/cask) is a package manager than can help organize plugins from many different repositories.
+[use-package](https://github.com/jwiegley/use-package) provides a DSL with helpful behaviors for managing plugins/settings.
 
 # Alternatives
 

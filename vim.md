@@ -44,9 +44,9 @@ $HOME/.vimrc
 
 [Reference Dotfile](https://github.com/mcandre/dotfiles/blob/master/.vimrc)
 
-# Repositories
+# Repositories / Plugins
 
-[Vundle](https://github.com/gmarik/vundle)
+[vim-plug](https://github.com/junegunn/vim-plug)
 
 # Basic Commands
 
@@ -432,11 +432,9 @@ set foldlevelstart=20
 
 For more helpful snippets, see https://github.com/mcandre/dotfiles/blob/master/.vimrc
 
-# Repositories
+# Other repositories
 
 * Vim Scripts http://www.vim.org/scripts/index.php
-
-[Vundle](https://github.com/gmarik/Vundle.vim) is a package manager than can help organize plugins from many different repositories.
 
 # Alternatives
 
