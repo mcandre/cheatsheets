@@ -319,6 +319,34 @@ M-g g <line number> RET
 M-g TAB <line number> RET
 ```
 
+### POSIX-style Navigation
+
+The following navigation keys are common to bash, Emacs, and Mac OS. Other systems tend to use `Home`/`End` for Start/End of Line, and `C-<Left>`/`C-<Right>` for Back/Forward one Word.
+
+## Go to Start of Line
+
+```
+C-a
+```
+
+## Go to End of Line
+
+```
+C-e
+```
+
+## Go Back one Word (non-punctuation characters)
+
+```
+M-<Left>
+```
+
+## Go Forward one Word (non-punctuation characters)
+
+```
+M-<Right>
+```
+
 ## Toggle Fold Current Block
 
 ```

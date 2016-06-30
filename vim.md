@@ -282,6 +282,14 @@ A
 $
 ```
 
+## Back one Word (non-punctuation characters)
+
+```
+b
+```
+
+## Forward one Word (non-punctuation characters)
+
 ## Page Up
 
 ```
