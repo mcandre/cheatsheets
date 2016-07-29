@@ -390,6 +390,12 @@ Control+w, Control+w
 :hide
 ```
 
+## Switch buffer
+
+```
+:b <name>
+```
+
 ## Toggle commenting
 
 1. Select text with Visual mode (`v`).
