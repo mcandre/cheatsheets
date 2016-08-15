@@ -53,6 +53,12 @@ $ curl <URL> | less
 $ curl "<URL>"
 ```
 
+## Download file
+
+```
+$ curl -O <URL>
+```
+
 ## Save as
 
 ```
