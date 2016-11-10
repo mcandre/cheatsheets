@@ -47,6 +47,12 @@ $HOME/.curlrc
 $ curl <URL> | less
 ```
 
+## Continue an interrupted download
+
+```
+$ curl -C <URL>
+```
+
 ## Handle special URL characters
 
 ```
