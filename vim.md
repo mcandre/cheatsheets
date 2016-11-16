@@ -183,6 +183,12 @@ n
 
 http://vimhelp.appspot.com/intro.txt.html#key-notation
 
+### Repeat Command
+
+```
+:%<command>
+```
+
 ## Clipboard
 
 Vim will integrate with the OS clipboard, provided that +clipboard is enabled at compile time, and:
@@ -214,6 +220,12 @@ D
 
 ```
 yy[n]
+```
+
+### Copy all lines
+
+```
+:%y Enter
 ```
 
 ## Paste Lines
