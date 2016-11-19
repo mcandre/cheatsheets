@@ -228,9 +228,7 @@ C-s
 M-r
 ```
 
-## Find and Replace
-
-Find/Replace from cursor to end of file:
+## Find and Replace (until end of buffer)
 
 ```
 M-%
@@ -247,7 +245,7 @@ Enter text to replace.
 
 `!` replaces all occurences.
 
-`y` replace current match.
+`y` replaces current match.
 
 `n` skips over current match.
 

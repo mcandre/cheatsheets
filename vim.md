@@ -153,13 +153,7 @@ Control+r
 ESC
 ```
 
-## Next Search Result
-
-```
-n
-```
-
-## Find
+## Find (until end of buffer)
 
 ```
 /<term>
@@ -167,11 +161,17 @@ n
 
 `n` next match.
 
-## Replace Global
+## Find and Replace (until end of buffer)
 
 ```
-:%s/<term>/<replacement>/g
+:%s/<term>/<replacement>/gc
 ```
+
+`a` - replaces all occurences.
+
+`y` - replaces current match.
+
+`n` - skips over current match.
 
 ## Search in Directory
 
