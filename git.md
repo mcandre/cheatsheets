@@ -404,16 +404,19 @@ $ git push -u origin <branch name>
 # Export a patch file
 
 ```
-$ git diff <start commit>..<end commit> > git.patch
+$ git diff <start commit>[..<end commit>] > feature-2.git.patch
 ```
 
 # Import a patch file
 
 ```
-$ patch -p0 -i <patch file>
-$ git add .
-$ git commit
-$ git push
+$ git apply feature-2.git.patch
+```
+
+Or, with the classic [patch](https://en.wikipedia.org/wiki/Patch_(Unix)) tool:
+
+```
+$ patch -p0 -i feature-2.git.patch
 ```
 
 # Repositories
