@@ -111,6 +111,12 @@ gitbash$ vim <file/dir>
 :wall
 ```
 
+## Reload buffer from file system contents
+
+```
+:e!
+```
+
 ## Quit
 
 ```

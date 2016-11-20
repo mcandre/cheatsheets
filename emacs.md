@@ -198,6 +198,12 @@ M-x set-buffer-file-coding-system utf-8-[unix|dos|mac]
 C-x C-w
 ```
 
+## Reload buffer from file system contents
+
+```
+M-: (revert-buffer) RET yes RET
+```
+
 ## Quit
 
 ```
