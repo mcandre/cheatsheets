@@ -159,6 +159,20 @@ Control+r
 ESC
 ```
 
+## Buffers
+
+### Create Buffer in Current Window
+
+```
+:enew
+```
+
+### Set buffer mode
+
+```
+:set syntax=<name>
+```
+
 ## Find (until end of buffer)
 
 ```
