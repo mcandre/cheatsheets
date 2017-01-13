@@ -93,13 +93,13 @@ $
 ## Specify permissions
 
 ```
---chmod <octal>
+--chmod=<octal>
 ```
 
 ## Specify owner and group
 
 ```
---chown <owner:group>
+--chown=<owner:group>
 ```
 
 # Service
