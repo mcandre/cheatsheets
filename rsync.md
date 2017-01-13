@@ -90,6 +90,18 @@ $ rsync -a books me@mybookserver.com:/home/me/
 $
 ```
 
+## Specify permissions
+
+```
+--chmod <octal>
+```
+
+## Specify owner and group
+
+```
+--chown <owner:group>
+```
+
 # Service
 
 ## Configure
