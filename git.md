@@ -404,7 +404,7 @@ $ git push -u origin <branch name>
 # Export a patch file
 
 ```
-$ git diff <start commit>[..<end commit>] > feature-2.git.patch
+$ git diff --no-prefix [<start commit>[..<end commit>]] > feature-2.git.patch
 ```
 
 # Import a patch file
