@@ -37,7 +37,7 @@ $ rsync -a <source> <destination>
 
 Where:
 
-* `-a` means "synchronize all aspects of a file, including contents, name, permissions, and timestamp
+* `-a` means "synchronize all aspects of a file, including contents, name, permissions, and timestamp. If `-a` is omitted, then directories may not be copied over recursively.
 * `<source>` and `<destination>` may be local file paths, SSH-compatible file paths, or a mix of both.
 
 ## Local machine copy
