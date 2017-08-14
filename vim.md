@@ -478,6 +478,12 @@ set foldlevelstart=20
 
 For more helpful snippets, see https://github.com/mcandre/dotfiles/blob/master/.vimrc
 
+## Enable Byte Order Marker (BOM)
+
+```
+set bomb
+```
+
 # Other repositories
 
 * Vim Scripts http://www.vim.org/scripts/index.php
