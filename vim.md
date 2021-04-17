@@ -71,9 +71,9 @@ To return to Normal mode, press `ESC`.
 ## Open or Refresh File/Directory
 
 ```
-$ vim <file/dir>
+$ vi <file/dir>
 
-$ vim
+$ vi
 :e <file/dir>
 ```
 
@@ -108,13 +108,13 @@ gitbash$ vim <file/dir>
 ## Save all buffers
 
 ```
-:wall
+:wa
 ```
 
 ## Reload buffer from file system contents
 
 ```
-:e!
+:e
 ```
 
 ## Quit
@@ -437,6 +437,18 @@ Or
 
 1. Navigate to the desired line.
 2. Press `gcc`.
+
+## Indent selection
+
+```
+>
+```
+
+## Dedent selection
+
+```
+<
+```
 
 ## Open Shell
 
