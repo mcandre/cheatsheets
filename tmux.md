@@ -26,7 +26,7 @@ $ brew install tmux
 # Configure
 
 ```
-$HOME/tmux.conf
+$HOME/.config/tmux/tmux.conf
 ```
 
 ## Tab completion for session names
